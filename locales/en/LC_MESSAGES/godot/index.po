@@ -23,5 +23,5 @@ msgstr ""
 
 #: ../../godot/index.rst:8
 msgid "La guía de la documentación perdida"
-msgstr "The lost documentation gide"
+msgstr "The lost documentation guide"
 
