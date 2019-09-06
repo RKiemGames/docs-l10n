@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../godot/filter_script.rst:59
 msgid "*Figura 2: Otro ejemplo con 2 filtros de tracks de animaciones.*"
-msgstr "*Figure 2: Another example with 2 filters of animation tracks.*"
+msgstr "*Figure 2: Another example with 2 animation tracks filters.*"
 
 #: ../../godot/filter_script.rst:61
 msgid ""
