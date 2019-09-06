@@ -19,5 +19,5 @@ msgstr ""
 
 #: ../../extra/index.rst:2
 msgid "Herramientas de Gestión"
-msgstr ""
+msgstr "Management tools"
 

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../prog/prog_01.rst:2
 msgid "Introducción a la programación"
-msgstr ""
+msgstr "Introduction to pragramming"
 
 #: ../../prog/prog_01.rst:4
 msgid "Creando un formulario de registro"

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../prog/prog_04.rst:2
 msgid "Formalizando la programación"
-msgstr ""
+msgstr "Formal programming"
 
 #: ../../prog/prog_04.rst:7
 msgid ""

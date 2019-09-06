@@ -19,5 +19,5 @@ msgstr ""
 
 #: ../../prog/prog_init_index.rst:2
 msgid "Iniciación en la programación"
-msgstr ""
+msgstr "Startup in programming"
 

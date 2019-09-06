@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../prog/prog_02.rst:2
 msgid "Programando decisiones"
-msgstr ""
+msgstr "Programming decisions"
 
 #: ../../prog/prog_02.rst:8
 msgid ""

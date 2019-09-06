@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../prog/prog_03.rst:2
 msgid "Programado repeticiones"
-msgstr ""
+msgstr "Programming repeatings"
 
 #: ../../prog/prog_03.rst:7
 msgid ""

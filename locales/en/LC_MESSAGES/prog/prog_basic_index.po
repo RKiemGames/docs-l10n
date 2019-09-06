@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../prog/prog_basic_index.rst:2
 msgid "Desarrollando videojuegos nivel básico"
-msgstr ""
+msgstr "Basic Game development level"
 
 #: ../../prog/prog_basic_index.rst:10
 msgid "*Próximamente...*"

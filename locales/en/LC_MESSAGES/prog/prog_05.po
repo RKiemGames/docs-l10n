@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../prog/prog_05.rst:2
 msgid "Introducción a los objetos"
-msgstr ""
+msgstr "Introduction to objects"
 
 #: ../../prog/prog_05.rst:7
 msgid ""

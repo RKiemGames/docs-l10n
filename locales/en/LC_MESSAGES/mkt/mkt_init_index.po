@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
+o# SOME DESCRIPTIVE TITLE.
 # Copyright (C) Rdckgmes 2019
 # This file is distributed under the same license as the Rdckgames package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
@@ -19,5 +19,5 @@ msgstr ""
 
 #: ../../mkt/mkt_init_index.rst:2
 msgid "Introducción al Marketing Digital"
-msgstr ""
+msgstr "Introduction to Digital Marketing"
 

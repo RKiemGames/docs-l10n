@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../prog/prog_advanced_index.rst:2
 msgid "Desarrollando videojuegos nivel avanzado"
-msgstr ""
+msgstr "Advanced Game development level"
 
 #: ../../prog/prog_advanced_index.rst:11
 msgid "*Próximamente...*"
