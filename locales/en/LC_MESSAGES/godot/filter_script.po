@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../godot/filter_script.rst:2
 msgid "Como usar Filter Script"
-msgstr ""
+msgstr "How to use Filter Script"
 
 #: ../../godot/filter_script.rst:7
 msgid "Como usar **Filter Script** al importar animaciones en **Godot Engine**."
-msgstr ""
+msgstr "How to use **Filter Script** when importing animations in **Godot Engine**."
 
 #: ../../godot/filter_script.rst:9
 msgid ""
@@ -36,10 +36,17 @@ msgid ""
 " analizar el código fuente detrás de esta funcionalidad y hemos creado "
 "este pequeño manual que explica como debes usarlo."
 msgstr ""
+"One of the features that Godot engine has is to specify filters to import "
+"tracks of animations, with this you can skip some tracks that are not "
+"relevant, especially those that are used for tests in your DCC or for other "
+"particular motivations. Unfortunately, this feature is not yet explained in "
+"the **Godot Engine** documentation, so we have made the effort to analyze the "
+"source code behind this functionality and have created this small manual "
+"that explains how you should use it."
 
 #: ../../godot/filter_script.rst:23
 msgid "*Figura 1: Una script típico de filtrado de tracks en animaciones.*"
-msgstr ""
+msgstr "*Figure 1: A typical script for filtering tracks in animations.*"
 
 #: ../../godot/filter_script.rst:25
 msgid ""
@@ -56,6 +63,17 @@ msgid ""
 "nombres de las animaciones o tracks están escritos en mayúsculas o "
 "minúscula ya que es insensible a estas."
 msgstr ""
+"To filter the animations, you must start with arroba ``@`` , followed by "
+"the words that should be included using the sum ``+`` modifier or exclude "
+"with the subtraction modifier ``-`` as a prefix to the word, the comma "
+"operator ``,`` allows you to specify more filters for the names of animations,"
+" then for each line the route of the track that you want to include or exclude"
+" using the same previous modifiers is defined. For both the filter of the "
+"animations and the tracks, can you use wild cards such as: asterisk ``*`` , to "
+"match **0 or more** characters arbitrarily or interrogation ``?``, for a "
+"single character [except the period character ``.``]. It does not matter if "
+"the names of the animations or tracks are written in upper or lower case "
+"since it is insensitive to them."
 
 #: ../../godot/filter_script.rst:37
 msgid ""
@@ -69,22 +87,34 @@ msgid ""
 "expresión será excluido, si no se especifican filtros para tracks se "
 "excluirán todos los track de la animación."
 msgstr ""
+"In the script in Figure 1, the tracks are filtered for animations that "
+"their names begin with **run** but do not contain **forward** and do not end "
+"with **sprint**, given this example, an animation called **run_forward** or "
+"**run_forward_sprint** will be skipped to filter (do not remove the animation)"
+", not so **run** where your tracks will be filtered, so, all tracks will be "
+"imported given the expression ``+*`` except for those containing ``BoneLeg.L``"
+". If any track does not match any expression, it will be excluded, if no "
+"filters are specified for tracks, all tracks in the animation will be excluded."
 
 #: ../../godot/filter_script.rst:47
 msgid ""
 "A continuación se muestra un script que permite especificar varios "
 "filtros de tracks en animaciones."
 msgstr ""
+"Below is a script that allows you to specify several track filters in "
+"animations."
 
 #: ../../godot/filter_script.rst:59
 msgid "*Figura 2: Otro ejemplo con 2 filtros de tracks de animaciones.*"
-msgstr ""
+msgstr "*Figure 2: Another example with 2 filters of animation tracks.*"
 
 #: ../../godot/filter_script.rst:61
 msgid ""
 "Puedes crear tantos filtros como quieras, mientras respetes la sintaxis "
 "de script."
 msgstr ""
+"You can create as many filters as you want, while respecting the script "
+"syntax."
 
 #: ../../godot/filter_script.rst:64
 msgid ""
@@ -92,4 +122,7 @@ msgid ""
 "https://docs.godotengine.org/en/3.1/getting_started/workflow/assets/importing_scenes.html"
 "#filter-script"
 msgstr ""
+"The official documentation can be found at this link "
+"https://docs.godotengine.org/en/3.1/getting_started/workflow/assets/importing_scenes.html"
+"#filter-script"
 
