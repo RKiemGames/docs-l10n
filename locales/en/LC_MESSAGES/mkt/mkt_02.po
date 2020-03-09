@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Rdckgmes 2019
-# This file is distributed under the same license as the Rdckgames package.
+# Copyright (C) RKiemGames 2019
+# This file is distributed under the same license as the RKiemGames package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Rdckgames 1.0\n"
+"Project-Id-Version: RKiemGames 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-05 13:32-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -265,8 +265,8 @@ msgstr ""
 
 #: ../../mkt/mkt_02.rst:141
 msgid ""
-"Puedes visitar nuestra `página de facebook Rdckgames "
-"<http://facebook.me/rdckgames>`_ por si tienes dudas o deseas conversar "
+"Puedes visitar nuestra `página de facebook RKiemGames "
+"<http://facebook.me/RKiemGames>`_ por si tienes dudas o deseas conversar "
 "con nosotros."
 msgstr ""
 
